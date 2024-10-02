@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	@apply bg-slate-900 text-white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-optical-sizing: auto;
+}
+
+body {
+	font-size: 21px;
+	max-width: 460px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+input,
+button {
+	font-size: 21px;
+}
+
+h1 {
+	@apply text-5xl;
+}
+
+h2 {
+	@apply text-4xl;
+}

@@ -1,0 +1,11 @@
+.input-field {
+	@apply w-full p-2 border border-slate-700 rounded focus:outline-none focus:border-blue-500 bg-transparent text-white transition-colors mt-1;
+}
+
+.btn-primary {
+	@apply w-full py-2 text-white font-semibold rounded transition duration-300 ease-in-out mt-1;
+
+	&:hover {
+		@apply transform scale-105;
+	}
+}
